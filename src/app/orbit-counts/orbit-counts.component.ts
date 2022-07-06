@@ -1,6 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Satellite } from '../satellite';
 
+// When the page loads, how many satellites should be displayed?
+
 @Component({
   selector: 'app-orbit-counts',
   templateUrl: './orbit-counts.component.html',
